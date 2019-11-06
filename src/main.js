@@ -1,11 +1,15 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import Axios from 'axios'
+import VueAxios from 'vue-axios'
 import App from './App.vue'
 import Tabela from './components/Tabela'
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
-Vue.use(VueRouter)
+Vue.use(VueAxios,Axios);
+Vue.use(VueRouter);
+
 
 const routes = [
   {path: '/', component: App },
@@ -17,7 +21,6 @@ const router = new VueRouter({
   routes
 })
   
-
 
 new Vue({
   router,

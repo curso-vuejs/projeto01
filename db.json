@@ -1,0 +1,32 @@
+{
+    "registros":[
+        {
+            "id": 1,
+            "nome": "Thiago",
+            "cargo": "Analista",
+            "unidade": "Tupis",
+            "salario": 1000
+        },
+        {
+            "id": 2,
+            "nome": "Cecília",
+            "cargo": "Analista",
+            "unidade": "Tupis",
+            "salario": 2000
+        },
+        {
+            "id": 3,
+            "nome": "Paulo",
+            "cargo": "Analista",
+            "unidade": "Tupis",
+            "salario": 3000
+        },
+        {
+            "id": 4,
+            "nome": "João",
+            "cargo": "Analista Folha",
+            "unidade": "Tupis",
+            "salario": 6000
+        }
+    ]
+}
